@@ -1,0 +1,19 @@
+{
+  "name": "node-fast-poc",
+  "version": "1.0.0",
+  "author": "Julian Gomez Sibecas",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {}
+}
